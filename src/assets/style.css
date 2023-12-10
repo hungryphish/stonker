@@ -1,0 +1,74 @@
+ body {
+    margin: 0px;
+    height: 100%;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* subtle gradient */
+    font-family: 'Roboto', sans-serif; /* modern font */
+    color: #ffffff; /* light text color for better contrast */
+}
+
+label, h2 {
+    color: #CCCCCC; /* softer white for labels and headings */
+}
+
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#inputDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px; /* added padding */
+}
+
+#stockDiv, #riskDiv {
+    border-radius: 10px; /* rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white for a modern look */
+    padding: 15px; /* internal padding */
+    margin: 10px; /* external margin */
+}
+
+#statDiv, #graphDiv, #weightDiv {
+    background: linear-gradient(to right, #6a3093, #a044ff, #6a3093);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* subtle shadow */
+    padding: 1%;
+    margin: 2%;
+
+}
+
+#graphDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#twDiv, #valDiv {
+    flex: 1;
+    margin: 1%;
+
+}
+
+
+
+button {
+    background-color: #4CAF50; /* modern button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* rounded buttons */
+    transition: background-color 0.3s ease; /* smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #45a049; /* darker shade on hover */
+}

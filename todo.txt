@@ -1,0 +1,44 @@
+Analysis
+#  MVP  #
+xHook in API call
+xMake it so all ticker returns and stats are consolidated into one table.
+xAdd a portfolio column to that table
+XAdd terminal wealth table
+xCreate CAPM
+xDerive CAPM B
+xDerive Alpha
+XAdd y*
+-Hide API key and use environment variables.
+
+#  Nice to Have  #
+-Get efficient frontier and CAL
+xAllow you to weight stocks
+xadd 3 factor ff
+xadd 6 factor ff
+
+
+Website
+
+# MVP #
+-Allow user to input a list of stocks
+xAllow user to input risk aversion
+xShow stats on each security
+xShow terminal wealth calc and price history
+xExport data to csv
+
+
+#  nice to have  #
+-Show efficient frontier
+-Suggest weights based on history
+xAllow user to input weights
+-Allow user to save portfolio(s)
+xAllow user to modify existing portfolio
+-Morningstar matrix of portfolio
+-Make risk free rate user inputtable
+
+
+Project
+-Optimize the way data is shared between callbacks
+-Make it so risk aversion is carried through when new portfolios are created and the weights are changed. e.g stays constant
+-consider combining everything into one callback
+-change up how risk free rate is done
